@@ -28,6 +28,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
+    
       <Navbar backgroundMode={backMode} icon={icon} />
       <Routes>
         <Route path="/" element={<Newsitem category="general" key="a" headingColor={headingColor} btnColor={btnColor} title="General"/>}></Route>
